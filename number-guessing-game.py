@@ -7,7 +7,7 @@ while True:
     guessCounter = 0
 
     if guess == num:
-        print("You guessed it!")
+        print(f"You guessed it! It took you {guessCounter} guesses")
         break
     elif guess > num:
         print("Lower")
