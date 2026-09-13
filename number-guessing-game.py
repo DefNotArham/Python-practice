@@ -8,5 +8,9 @@ while True:
     if guess == num:
         print("You guessed it!")
         break
+    elif guess > num:
+        print("Lower")
+    elif guess < num:
+        print("Higher")
     else:
         print("Wrong!")
