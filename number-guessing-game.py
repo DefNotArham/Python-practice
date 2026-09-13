@@ -1,10 +1,10 @@
 import random
 
 num = random.randint(1, 100)
+guessCounter = 0
 
 while True:
     guess = int(input("Guess the number: "))
-    guessCounter = 0
 
     if guess == num:
         print(f"You guessed it! It took you {guessCounter} guesses")
