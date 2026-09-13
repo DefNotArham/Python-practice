@@ -61,7 +61,7 @@ while True:
             total += expense["amount"]
 
         print(f"Total Expense: ${total:.2f}")
-        print("")
+        print(" ")
 
     if choice == 5:
         print("Goodbye!")
